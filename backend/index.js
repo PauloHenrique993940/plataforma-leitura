@@ -14,7 +14,8 @@ app.use(cors());
 app.use(express.json());
 
 // Servir arquivos estáticos do Frontend (após o build)
-app.use(express.static(path.join(__dirname, '../frontend/dist')));
+const frontendPath = path.resolve(__dirname, '..', 'frontend', 'dist');
+app.use(express.static(frontendPath));
 
 let db;
 
@@ -252,5 +253,5 @@ app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
 
 // Rota para qualquer outra requisição (deve ser a última)
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
+    res.sendFile(path.join(frontendPath, 'index.html'));
 });
