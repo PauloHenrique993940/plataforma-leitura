@@ -1,0 +1,16 @@
+# Pastas de dependências
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Arquivos de Build
+frontend/dist/
+
+# Banco de dados local (SQLite)
+backend/database.db
+backend/database.db.old
+
+# Arquivos de ambiente e logs
+.env
+*.log
+.DS_Store

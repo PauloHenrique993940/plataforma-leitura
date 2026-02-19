@@ -1,0 +1,92 @@
+{
+  "turmas": [
+    {
+      "id": 1,
+      "nome": "3º Ano A",
+      "alunos": [
+        {
+          "id": 1,
+          "nome": "João Silva",
+          "observacao": "Interessado",
+          "avaliacoes": [
+            {
+              "mes": "Janeiro",
+              "nivel": "Soletra"
+            },
+            {
+              "mes": "Fevereiro",
+              "nivel": "Mediano"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nome": "Maria Oliveira",
+          "observacao": "Lê muito bem",
+          "avaliacoes": [
+            {
+              "mes": "Janeiro",
+              "nivel": "Mediano"
+            },
+            {
+              "mes": "Fevereiro",
+              "nivel": "Soletra"
+            }
+          ]
+        },
+        {
+          "id": 1771495758813,
+          "nome": "Mateus",
+          "observacao": "",
+          "avaliacoes": [
+            {
+              "mes": "Fevereiro",
+              "nivel": "Fluente"
+            }
+          ]
+        },
+        {
+          "id": 1771498032615,
+          "nome": "Mateus",
+          "avaliacoes": []
+        }
+      ]
+    },
+    {
+      "id": 1771495727465,
+      "nome": "5 série",
+      "alunos": []
+    },
+    {
+      "id": 1771496263848,
+      "nome": "1° Ano A",
+      "alunos": [
+        {
+          "id": 1771496274154,
+          "nome": "Fabiano",
+          "observacao": "",
+          "avaliacoes": []
+        }
+      ]
+    },
+    {
+      "id": 1771498072737,
+      "nome": "6° Ano 1",
+      "informacoes": "",
+      "alunos": [
+        {
+          "id": 1771498093676,
+          "nome": "Mateus",
+          "avaliacoes": []
+        }
+      ]
+    }
+  ],
+  "lembretes": [
+    {
+      "id": 1771497972676,
+      "texto": "novo lembrete",
+      "data": "19/02/2026"
+    }
+  ]
+}
